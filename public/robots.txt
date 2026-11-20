@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.horvathfonoaudiologia.com.br/sitemap.xml
