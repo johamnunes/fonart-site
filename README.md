@@ -6,7 +6,9 @@ Site da fonoaudióloga Natalia Horvath (CRFa 2-21896), hospedado no Cloudflare W
 
 ```
 public/
-  index.html      página única do site
+  index.html      página inicial
+  voz/, oratoria/, motricidade-orofacial/, leitura-e-escrita/, recursos-terapeuticos/
+                  uma página por área de atendimento (index.html em cada pasta)
   404.html        página de erro
   _headers        cabeçalhos de cache e segurança
   robots.txt      liberação para buscadores e endereço do sitemap
@@ -45,7 +47,8 @@ Já no código:
 - `<title>`, meta description, canonical e Open Graph em `public/index.html`
 - Dados estruturados (JSON-LD): `MedicalBusiness`, `Person` (com o CRFa) e `FAQPage`, gerado a partir das perguntas visíveis na página
 - `robots.txt` e `sitemap.xml`
-- Um único `h1` com profissão e bairros, imagens em WebP com `width`/`height` e lazy loading abaixo da dobra
+- Páginas próprias para cada área, cada uma com título, descrição, canonical, `MedicalWebPage`, `BreadcrumbList` e `FAQPage`; a home liga para todas pelos cards e pelo rodapé
+- Um único `h1` por página, imagens em WebP com `width`/`height` e lazy loading abaixo da dobra
 
 Depois de publicar no domínio:
 
