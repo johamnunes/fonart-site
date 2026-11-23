@@ -2,12 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.horvathfonoaudiologia.com.br/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <image:image>
       <image:loc>https://www.horvathfonoaudiologia.com.br/img/natalia-retrato.webp</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://www.horvathfonoaudiologia.com.br/img/natalia-consultorio.webp</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>https://www.horvathfonoaudiologia.com.br/voz/</loc>
+    <lastmod>2026-11-23</lastmod>
+  </url>
+  <url>
+    <loc>https://www.horvathfonoaudiologia.com.br/oratoria/</loc>
+    <lastmod>2026-11-23</lastmod>
+  </url>
+  <url>
+    <loc>https://www.horvathfonoaudiologia.com.br/motricidade-orofacial/</loc>
+    <lastmod>2026-11-23</lastmod>
+  </url>
+  <url>
+    <loc>https://www.horvathfonoaudiologia.com.br/leitura-e-escrita/</loc>
+    <lastmod>2026-11-23</lastmod>
+  </url>
+  <url>
+    <loc>https://www.horvathfonoaudiologia.com.br/recursos-terapeuticos/</loc>
+    <lastmod>2026-11-23</lastmod>
   </url>
 </urlset>
